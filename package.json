@@ -1,5 +1,5 @@
 {
-  "name": "simplefolio",
+  "name": "clear",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/cobidev/simplefolio.git"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Vassil Kurktchiev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
@@ -30,5 +30,6 @@
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.2"
-  }
+  },
+  "main": "index.js"
 }
