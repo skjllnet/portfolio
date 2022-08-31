@@ -1,6 +1,12 @@
+.golden-line {
+  height: 1rem;
+  background-color: red;
+  position: fixed;
+  z-index: 999;
+}
+
 .jumbotron-background {
   position: fixed;
-  opacity: 0.1;
   left: 0;
   top: 0;
   width: 100%;
