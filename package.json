@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template.",
-  "source": "./src/index.html",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
@@ -27,6 +27,5 @@
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.2"
-  },
-  "main": "index.js"
+  }
 }
