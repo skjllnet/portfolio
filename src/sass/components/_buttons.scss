@@ -103,6 +103,11 @@
   align-items: center;
 }
 
+.clipboard-container a {
+  display: flex;
+  align-items: center;
+}
+
 .content {
   display: flex;
 }
@@ -120,22 +125,8 @@ input {
   padding: 0.7rem 1.6rem;
 }
 
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 1rem 1.6rem;
-  color: orangered;
-  background-color: #ddd;
-  border: 1px dotted #333;
-  transition: all 0.5s;
-}
-
-.btn:hover {
-  opacity: 0.85;
-}
-
-button img {
-  margin-right: 0.5rem;
-  width: 1.6rem;
+.clipboard-img {
+  margin-right: 0.9rem;
+  width: 2.4rem;
+  filter: invert(1);
 }
