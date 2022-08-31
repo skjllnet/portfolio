@@ -2,8 +2,8 @@
   "name": "clear",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source": "index.html",
+  "description": "A clean, beautiful and responsive portfolio template.",
+  "source": "./src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
