@@ -93,3 +93,43 @@
 .up i {
   color: #272727;
 }
+
+/* Clipboard */
+
+.clipboard {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  border-top: 1px dotted #333;
+  border-left: 1px dotted #333;
+  border-bottom: 1px dotted #333;
+}
+
+.text {
+  font-size: 1.4rem;
+  color: #333;
+  padding: 0.7rem 1.6rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1rem 1.6rem;
+  color: orangered;
+  background-color: #ddd;
+  border: 1px dotted #333;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+button img {
+  margin-right: 0.5rem;
+  width: 1.6rem;
+}

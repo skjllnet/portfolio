@@ -277,14 +277,16 @@
           </p>
 
           <!-- Copy to clipboard functionality -->
-          <div class="cta-container">
-            <input type="text" value="vassil.kurk@gmail.com" id="bar" />
-            <button
-              class="btn cta-btn cta-btn--resume"
-              data-clipboard-action="cut"
-              data-clipboard-target="#bar"
-            >
-              Cut to clipboard
+          <div class="clipboard">
+            <input
+              type="text"
+              value="vassil.kurk@gmail.com"
+              id="myEmail"
+              class="text"
+            />
+            <button onclick="copyText()" class="btn">
+              <img src="assets/clipboard-outline.svg" alt="Copy to clipboard" />
+              <strong>copy</strong>
             </button>
           </div>
 
