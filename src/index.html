@@ -277,27 +277,24 @@
           </p>
 
           <!-- Copy to clipboard functionality -->
-          <div class="clipboard">
-            <input
-              type="text"
-              value="vassil.kurk@gmail.com"
-              id="myEmail"
-              class="text"
-            />
-            <button onclick="copyText()" class="btn">
-              <img src="assets/clipboard-outline.svg" alt="Copy to clipboard" />
-              <strong>copy</strong>
-            </button>
+          <div class="clipboard-container">
+            <div class="content">
+              <input
+                type="text"
+                value="vassil.kurk@gmail.com"
+                id="data"
+                class="text"
+              />
+              <a
+                onclick="copyText()"
+                rel="noreferrer"
+                onmouseover=""
+                class="cta-btn cta-btn--resume"
+                id="copy"
+                >Copy</a
+              >
+            </div>
           </div>
-
-          <!-- <p>vassil.kurk@gmail.com</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Copy to Clipboard</a
-          > -->
         </div>
       </div>
     </section>
@@ -332,5 +329,6 @@
     </footer>
     <!-- /END Footer Section -->
     <script defer type="module" src="index.js"></script>
+    <!-- <script defer type="module" src="./scripts/copyText.js"></script> -->
   </body>
 </html>

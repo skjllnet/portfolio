@@ -82,6 +82,7 @@
   &:hover {
     color: $secondary-color;
     text-decoration: none;
+    cursor: pointer;
 
     &::after {
       width: 100%;
@@ -96,16 +97,21 @@
 
 /* Clipboard */
 
-.clipboard {
+.clipboard-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
 }
 
 input {
   border: none;
-  border-top: 1px dotted #333;
-  border-left: 1px dotted #333;
-  border-bottom: 1px dotted #333;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
 .text {
