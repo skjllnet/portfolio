@@ -16,6 +16,14 @@ export const targetElements = [
     },
   },
   {
+    element: ".section-title-two",
+    animation: {
+      delay: 300,
+      distance: "0px",
+      origin: "bottom",
+    },
+  },
+  {
     element: ".hero-title",
     animation: {
       delay: 500,
