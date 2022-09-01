@@ -38,6 +38,13 @@ export const targetElements = [
     },
   },
   {
+    element: ".belt",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "right" : "bottom",
+    },
+  },
+  {
     element: ".about-wrapper__image",
     animation: {
       delay: 600,
