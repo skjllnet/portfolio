@@ -3,9 +3,10 @@
 
   .belt {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
+    margin: 1rem 0;
   }
 
   i {
