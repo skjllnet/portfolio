@@ -1,3 +1,14 @@
 #tool {
-  background-color: $dark-grey;
+  background-color: $dark-blue-text;
+
+  .belt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  i {
+    color: $white-color;
+  }
 }
