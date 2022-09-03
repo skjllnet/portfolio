@@ -12,7 +12,8 @@
     font-size: 1.3rem;
 
     a {
-      color: darken($white-color, 50%);
+      // color: darken($white-color, 50%);
+      color: $primary-color;
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
@@ -20,7 +21,7 @@
 
       &:hover,
       &:active {
-        color: $primary-color;
+        color: $white-color;
         -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
       }

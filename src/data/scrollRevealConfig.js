@@ -8,6 +8,14 @@ export const defaultProps = {
 
 export const targetElements = [
   {
+    element: "#hero",
+    animation: {
+      delay: 300,
+      distance: "0px",
+      origin: "bottom",
+    },
+  },
+  {
     element: ".section-title",
     animation: {
       delay: 300,
@@ -40,8 +48,9 @@ export const targetElements = [
   {
     element: ".belt",
     animation: {
-      delay: 1000,
-      origin: window.innerWidth > 768 ? "right" : "bottom",
+      delay: 300,
+      distance: "0px",
+      origin: "bottom",
     },
   },
   {
