@@ -8,6 +8,7 @@
 
   .footer-text {
     text-align: center;
+    margin-bottom: 4rem;
   }
 
   .content {
@@ -27,7 +28,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
+    gap: 2rem;
   }
 
   .footer-link:link,
@@ -40,6 +41,6 @@
 
   .footer-link:hover,
   .footer-link:active {
-    color: #555;
+    color: $primary-color;
   }
 }
