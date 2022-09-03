@@ -68,6 +68,13 @@ export const targetElements = [
     },
   },
   {
+    element: ".to-next",
+    animation: {
+      delay: 1550,
+      origin: "bottom",
+    },
+  },
+  {
     element: ".project-wrapper__text",
     animation: {
       delay: 500,

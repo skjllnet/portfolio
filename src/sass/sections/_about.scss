@@ -12,6 +12,10 @@
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   padding-bottom: 10%;
 
+  .about {
+    text-align: left;
+  }
+
   @include respond(tab-land) {
     height: 100%;
     -webkit-clip-path: none;
@@ -74,6 +78,16 @@
           }
         }
       }
+    }
+  }
+
+  .to-next i {
+    color: $white-color;
+    margin: 0 0 $default-font-size;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: translateY(2px);
     }
   }
 }
