@@ -1,10 +1,3 @@
-.golden-line {
-  height: 1rem;
-  background-color: red;
-  position: fixed;
-  z-index: 999;
-}
-
 .jumbotron-background {
   position: fixed;
   left: 0;
@@ -16,7 +9,7 @@
 
 #hero {
   min-height: 100vh;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
