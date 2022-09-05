@@ -70,7 +70,7 @@ export const targetElements = [
   {
     element: ".to-next",
     animation: {
-      delay: 1550,
+      delay: 1000,
       origin: "bottom",
     },
   },
