@@ -1,6 +1,7 @@
 .container--footer {
   display: grid;
   grid-template-columns: 1fr;
+  margin: 0;
 
   .footer-heading {
     margin: 2rem 0;
@@ -14,7 +15,6 @@
   .content {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     margin-bottom: 4rem;
   }
