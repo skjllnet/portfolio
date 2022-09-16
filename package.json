@@ -2,7 +2,7 @@
   "name": "clear",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template.",
+  "description": "A clean, beautiful and responsive portfolio.",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
