@@ -48,6 +48,19 @@ a:hover {
   }
 }
 
+.section-title-three {
+  display: flex;
+  justify-content: center;
+  margin: -10rem 0 2rem 0;
+  font-size: $big-font-size;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @include respond(phone) {
+    font-size: 2.8rem;
+  }
+}
+
 .dark-blue-text {
   color: $dark-blue-text !important;
 }
