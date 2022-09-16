@@ -55,8 +55,16 @@
     }
   }
 
+  .hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
   .hero-cta {
     display: flex;
+    color: $white-color;
 
     @include respond(tab-port) {
       justify-content: center;
