@@ -89,6 +89,13 @@ export const targetElements = [
     },
   },
   {
+    element: ".card__icons",
+    animation: {
+      delay: 600,
+      origin: "bottom",
+    },
+  },
+  {
     element: ".contact-wrapper",
     animation: {
       delay: 800,
