@@ -76,7 +76,7 @@ export const targetElements = [
     },
   },
   {
-    element: ".to-next",
+    element: ".arrow__box-to-next",
     animation: {
       delay: 1000,
       origin: "bottom",
